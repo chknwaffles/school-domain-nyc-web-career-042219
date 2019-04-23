@@ -28,6 +28,6 @@ class School
       student_arr.sort
     end
     roster
-    binding.pry
+    #binding.pry
   end
 end
