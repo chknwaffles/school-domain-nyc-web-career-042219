@@ -25,6 +25,7 @@ class School
   
   def sort
     roster.map do |grade, student_arr|
+      binding.pry
       student_arr.sort
     end
     roster
