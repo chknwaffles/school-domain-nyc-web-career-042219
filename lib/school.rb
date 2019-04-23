@@ -16,7 +16,7 @@ class School
     if roster[grade_lvl] == nil
       roster[grade_lvl] = []
     end
-    roster[grade] << student_name
+    roster[grade_lvl] << student_name
   end
   
   def grade(grade_lvl)
