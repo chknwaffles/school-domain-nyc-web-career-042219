@@ -12,10 +12,12 @@ class School
   #   @roster = {}
   # end
   
-  def add_student(student_name, grade)
-    if roster[grade] == nil
+  def add_student(student_name, grade_lvl)
+    if roster[grade_lvl] == nil
       roster[grade] = []
     end
     roster[grade] << student_name
   end
+  
+  def grade(grade)
 end
