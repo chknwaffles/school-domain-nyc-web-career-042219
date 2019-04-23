@@ -6,6 +6,6 @@ class School
   end
   
   def roster
-    {}
+    roster_hash = {}
   end
 end
