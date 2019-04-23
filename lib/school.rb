@@ -22,4 +22,11 @@ class School
   def grade(grade_lvl)
     roster[grade_lvl]
   end
+  
+  def sort
+    roster.each do |grade, student_arr|
+      binding.pry
+    end
+    
+  end
 end
