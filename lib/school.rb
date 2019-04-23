@@ -21,6 +21,5 @@ class School
   
   def grade(grade_lvl)
     roster[grade_lvl]
-    binding.pry
   end
 end
