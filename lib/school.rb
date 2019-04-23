@@ -20,4 +20,6 @@ class School
   end
   
   def grade(grade_lvl)
+    roster[grade]
+  end
 end
