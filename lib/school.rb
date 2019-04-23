@@ -6,7 +6,7 @@ class School
   end
   
   def roster
-    @roster_hash = {}
+    @roster = {}
   end
   
   def add_student(student_name, grade)
