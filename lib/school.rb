@@ -14,7 +14,7 @@ class School
   
   def add_student(student_name, grade_lvl)
     if roster[grade_lvl] == nil
-      roster[grade_vl] = []
+      roster[grade_lvl] = []
     end
     roster[grade] << student_name
   end
