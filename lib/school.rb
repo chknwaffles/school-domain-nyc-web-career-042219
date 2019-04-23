@@ -5,9 +5,9 @@ class School
     @school_name = school_name
   end
   
-  # def roster
-  #   @roster_hash = {}
-  # end
+  def roster
+    @roster_hash = {}
+  end
   
   def add_student(student_name, grade)
     @roster[grade] = []
